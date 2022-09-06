@@ -1,11 +1,13 @@
 package org.test;
 
+import java.util.Scanner;
+
 public class Sample {
 	
 	public static void main(String[] args) {
-		System.out.println("Test1");
-		System.out.println("Test2");
-		System.out.println("Test3");
+		Scanner s=new Scanner(System.in);
+		int nextInt = s.nextInt();
+		System.out.println(nextInt);
 	}
 
 }
